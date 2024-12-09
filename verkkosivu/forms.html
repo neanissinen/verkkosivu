@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms Exercise</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>HTML Forms Exercise</h1>
+        <p>Use this template to create forms below.</p>
+    </header>
+    <div class="container">
+        <h2>Task</h2>
+        <p>Create a form for user registration. The form should include:</p>
+        <ul>
+            <li>Input fields: First Name, Last Name, Email</li>
+            <li>A dropdown for selecting the country</li>
+            <li>A textarea for comments</li>
+            <li>A submit button</li>
+        </ul>
+        <h2>Sinun ikioma Form</h2>
+        <form>
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+          
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+          
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+          
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+          
+            <label for="newsletter">Subscribe to Newsletter:</label>
+            <input type="checkbox" id="newsletter" name="newsletter">
+          
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" it="other" name="gender" value="other">
+            <label for="other">Other</label>
+            
+          
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+              <option value="usa">USA</option>
+              <option value="canada">Canada</option>
+              <option value="uk">UK</option>
+            </select>
+          
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments"></textarea>
+          
+            <button type="submit">Submit</button>
+          </form>
+
+
+        <div id="nav">
+            <a href="./index.html">Mene Tauluun</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
